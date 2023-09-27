@@ -1,0 +1,14 @@
+$gt 
+{"$gt":""}
+{"$gt":-1}
+$ne
+{"$ne":""}
+{"$ne":-1}
+ $nin
+{"$nin":1}
+{"$nin":[1]}
+{"$where":  "sleep(1000)"}
+
+$gt is a MongoDB NoSQL query operator that selects documents that are greater than the provided value. 
+The $ne query operator selects documents where the value is not equal to the provided value. 
+The $nin operator is the “not in” operator, used to select documents where the field value is not within the specified array. 
